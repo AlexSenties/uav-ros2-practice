@@ -1,0 +1,4 @@
+source;share/flight_stabilization/local_setup.bash
+source;share/flight_stabilization/local_setup.dsv
+source;share/flight_stabilization/local_setup.sh
+source;share/flight_stabilization/local_setup.zsh

@@ -1,0 +1,142 @@
+[0.479s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.479s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74b6985b45e0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74b6985b45e0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74b6985b4be0>)
+[0.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.724s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.725s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.725s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/asenties/personal/practice/uav-ros2'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.725s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.743s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_stabilization) by extensions ['ignore', 'ignore_ament_install']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_stabilization) by extension 'ignore'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_stabilization) by extension 'ignore_ament_install'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_stabilization) by extensions ['colcon_pkg']
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_stabilization) by extension 'colcon_pkg'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_stabilization) by extensions ['colcon_meta']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_stabilization) by extension 'colcon_meta'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_stabilization) by extensions ['ros']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/flight_stabilization) by extension 'ros'
+[0.750s] DEBUG:colcon.colcon_core.package_identification:Package 'src/flight_stabilization' with type 'ros.ament_cmake' and name 'flight_stabilization'
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.788s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.797s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'flight_stabilization' build argument 'cmake_args' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'flight_stabilization' build argument 'cmake_target' from command line to 'None'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'flight_stabilization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'flight_stabilization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.933s] Level 5:colcon.colcon_core.verb:set package 'flight_stabilization' build argument 'cmake_clean_first' from command line to 'False'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'flight_stabilization' build argument 'cmake_force_configure' from command line to 'False'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'flight_stabilization' build argument 'ament_cmake_args' from command line to 'None'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'flight_stabilization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.934s] Level 5:colcon.colcon_core.verb:set package 'flight_stabilization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.934s] DEBUG:colcon.colcon_core.verb:Building package 'flight_stabilization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/asenties/personal/practice/uav-ros2/build/flight_stabilization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization', 'merge_install': False, 'path': '/home/asenties/personal/practice/uav-ros2/src/flight_stabilization', 'symlink_install': True, 'test_result_base': None}
+[0.934s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.936s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.937s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/asenties/personal/practice/uav-ros2/src/flight_stabilization' with build type 'ament_cmake'
+[0.937s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/asenties/personal/practice/uav-ros2/src/flight_stabilization'
+[0.946s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.946s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.947s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asenties/personal/practice/uav-ros2/build/flight_stabilization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/asenties/personal/practice/uav-ros2/src/flight_stabilization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/asenties/personal/practice/uav-ros2/install/flight_stabilization
+[12.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asenties/personal/practice/uav-ros2/build/flight_stabilization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/asenties/personal/practice/uav-ros2/src/flight_stabilization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/asenties/personal/practice/uav-ros2/install/flight_stabilization
+[12.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asenties/personal/practice/uav-ros2/build/flight_stabilization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/asenties/personal/practice/uav-ros2/build/flight_stabilization -- -j16 -l16
+[12.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asenties/personal/practice/uav-ros2/build/flight_stabilization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/asenties/personal/practice/uav-ros2/build/flight_stabilization -- -j16 -l16
+[12.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/asenties/personal/practice/uav-ros2/build/flight_stabilization': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/asenties/personal/practice/uav-ros2/build/flight_stabilization
+[12.499s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flight_stabilization)
+[12.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/asenties/personal/practice/uav-ros2/build/flight_stabilization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/asenties/personal/practice/uav-ros2/build/flight_stabilization
+[12.512s] Level 1:colcon.colcon_core.environment:checking '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization' for CMake module files
+[12.513s] Level 1:colcon.colcon_core.environment:checking '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization' for CMake config files
+[12.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('flight_stabilization', 'cmake_prefix_path')
+[12.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/hook/cmake_prefix_path.ps1'
+[12.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/hook/cmake_prefix_path.dsv'
+[12.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/hook/cmake_prefix_path.sh'
+[12.520s] Level 1:colcon.colcon_core.environment:checking '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/bin'
+[12.521s] Level 1:colcon.colcon_core.environment:checking '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/lib/pkgconfig/flight_stabilization.pc'
+[12.521s] Level 1:colcon.colcon_core.environment:checking '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/lib/python3.8/site-packages'
+[12.521s] Level 1:colcon.colcon_core.environment:checking '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/bin'
+[12.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/package.ps1'
+[12.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/package.dsv'
+[12.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/package.sh'
+[12.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/package.bash'
+[12.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/package.zsh'
+[12.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/colcon-core/packages/flight_stabilization)
+[12.532s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(flight_stabilization)
+[12.533s] Level 1:colcon.colcon_core.environment:checking '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization' for CMake module files
+[12.533s] Level 1:colcon.colcon_core.environment:checking '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization' for CMake config files
+[12.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('flight_stabilization', 'cmake_prefix_path')
+[12.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/hook/cmake_prefix_path.ps1'
+[12.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/hook/cmake_prefix_path.dsv'
+[12.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/hook/cmake_prefix_path.sh'
+[12.536s] Level 1:colcon.colcon_core.environment:checking '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/bin'
+[12.536s] Level 1:colcon.colcon_core.environment:checking '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/lib/pkgconfig/flight_stabilization.pc'
+[12.537s] Level 1:colcon.colcon_core.environment:checking '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/lib/python3.8/site-packages'
+[12.537s] Level 1:colcon.colcon_core.environment:checking '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/bin'
+[12.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/package.ps1'
+[12.538s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/package.dsv'
+[12.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/package.sh'
+[12.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/package.bash'
+[12.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/package.zsh'
+[12.541s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/colcon-core/packages/flight_stabilization)
+[12.541s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.542s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.543s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.543s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.622s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[12.622s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.623s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.623s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.632s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[12.632s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.632s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asenties/personal/practice/uav-ros2/install/local_setup.ps1'
+[12.634s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asenties/personal/practice/uav-ros2/install/_local_setup_util_ps1.py'
+[12.636s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asenties/personal/practice/uav-ros2/install/setup.ps1'
+[12.638s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asenties/personal/practice/uav-ros2/install/local_setup.sh'
+[12.640s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/asenties/personal/practice/uav-ros2/install/_local_setup_util_sh.py'
+[12.641s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asenties/personal/practice/uav-ros2/install/setup.sh'
+[12.642s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asenties/personal/practice/uav-ros2/install/local_setup.bash'
+[12.644s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asenties/personal/practice/uav-ros2/install/setup.bash'
+[12.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/asenties/personal/practice/uav-ros2/install/local_setup.zsh'
+[12.646s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/asenties/personal/practice/uav-ros2/install/setup.zsh'
