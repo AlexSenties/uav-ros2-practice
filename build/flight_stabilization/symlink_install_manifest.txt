@@ -1,0 +1,15 @@
+/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/ament_index/resource_index/package_run_dependencies/flight_stabilization
+/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/ament_index/resource_index/parent_prefix_path/flight_stabilization
+/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/environment/ament_prefix_path.sh
+/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/environment/ament_prefix_path.dsv
+/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/environment/path.sh
+/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/environment/path.dsv
+/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/local_setup.bash
+/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/local_setup.sh
+/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/local_setup.zsh
+/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/local_setup.dsv
+/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/package.dsv
+/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/ament_index/resource_index/packages/flight_stabilization
+/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/cmake/flight_stabilizationConfig.cmake
+/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/cmake/flight_stabilizationConfig-version.cmake
+/home/asenties/personal/practice/uav-ros2/install/flight_stabilization/share/flight_stabilization/package.xml
